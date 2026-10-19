@@ -1,0 +1,816 @@
+{
+  "pdf": "data/twilight_lma.pdf",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "rerank_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "gemini_model": "gemini-3.5-flash-lite",
+  "answer_generation": "completed",
+  "chunk_tokens": 180,
+  "overlap_tokens": 40,
+  "results": [
+    {
+      "question": "Can trade goods be spent to cast votes during the agenda phase?",
+      "evidence": "Trade goods cannot be spent to cast votes",
+      "candidates": [
+        {
+          "id": "p29-t00840",
+          "page": 29,
+          "text": "following ways:\n•\t\nIn place of spending one resource.\n•\t\nIn place of spending one influence. However, trade goods \ncannot be spent to cast votes during the agenda phase.\n•\t\nTo resolve an effect that specifically requires that a trade \ngood be spent.\n82.5\t A player can exchange their trade goods with other players \nduring a transaction.\n82.6\t When a player receives a commodity token from another \nplayer, the player who received that token places it in their \ntrade good area with the trade good side of the token faceup.\n•\t\nThat token is no longer a commodity token; it is a trade \ngood token.\n82.7\t Trade good tokens come in values of one and three. A player \ncan swap between these tokens as necessary.\nRELATED TOPICS: Commodities, Deals, Influence, Resources, \nTransactions\n29",
+          "original_rank": 1,
+          "cosine_score": 0.6037418842315674,
+          "rerank_score": 8.921098709106445,
+          "reranked_rank": 1
+        },
+        {
+          "id": "p09-t00140",
+          "page": 9,
+          "text": ", a player must declare aloud the outcome \nfor which their votes are being cast.\n8.13\t Trade goods cannot be spent to cast votes.\n8.14\t A player may choose to abstain by not casting any votes.\n8.15\t Some game effects allow a player to cast additional votes for \nan outcome. These votes cannot be cast for a different outcome \nthan other votes cast by that player.\n8.16\t If a player cannot vote on an agenda because of a game effect, \nthat player cannot cast votes for that agenda by exhausting \nplanets or through any other game effect.\n8.17\t OUTCOMES\n8.18\t To resolve an outcome, the speaker follows the instructions on \nthe agenda card.\n8.19\t If there is a tie for the outcome that received the most votes, or \nif no outcome receives any votes, the speaker decides which of \nthe tied outcomes to resolve.\n•\t\nThe speaker’s decision is not",
+          "original_rank": 2,
+          "cosine_score": 0.5683783292770386,
+          "rerank_score": 5.9021453857421875,
+          "reranked_rank": 3
+        },
+        {
+          "id": "p09-t00000",
+          "page": 9,
+          "text": "8.9\t\nSome agendas instruct players to elect either a player or a planet. \nWhen a player casts votes for such an agenda, that player must \ncast their vote for an eligible player or planet as described on \nthe agenda.\n8.10\t When electing a player, a player can cast votes for themselves.\n•\t\nWhen resolving these agendas, the “elected player” is the \nplayer for whom the most votes are cast.\n8.11\t When electing a planet, a player must cast votes for a planet \nthat is controlled by a player.\n•\t\nWhen resolving these agendas, the “elected planet” is the \nplanet that had the most votes cast for it.\n8.12\t When casting votes, a player must declare aloud the outcome \nfor which their votes are being cast.\n8.13\t Trade goods cannot be spent to cast votes.\n8.14\t A player may choose to abstain by not",
+          "original_rank": 3,
+          "cosine_score": 0.5455918312072754,
+          "rerank_score": 5.1727447509765625,
+          "reranked_rank": 4
+        },
+        {
+          "id": "p35-t00840",
+          "page": 35,
+          "text": "is produced must always be paid for.\nQ: When producing a unit with an ability other than “Production,” \ndoes the price reduction from the “Sarween Tools” technology apply?\nA: No, “Sarween Tools” is only used with the “Production” ability.\nAGENDAS\nQ: When a “Research Team” agenda that is attached to a planet is \nused to ignore a prerequisite, is the planet exhausted?\nA: No. The agenda is exhausted, not the planet.\nQ: Can a player cast zero votes “For” or “Against” on an \nagenda instead of abstaining, in order to take advantage of effects \nassociated with that option?\nA: No. A vote of zero is the same as abstaining; that player gains \nno positive or negative effects of voting “For” or “Against” on an \nagenda if they contributed zero votes.",
+          "original_rank": 4,
+          "cosine_score": 0.5006037950515747,
+          "rerank_score": -4.2212395668029785,
+          "reranked_rank": 8
+        },
+        {
+          "id": "p29-t00700",
+          "page": 29,
+          "text": "to \nreplenish their commodities.\nRELATED TOPICS: Command Tokens, Commodities, Initiative \nOrder, Strategic Action, Strategy Card, Trade Goods\n82\t TRADE GOODS\nA trade good represents a player’s buying and \ntrading power beyond their planet’s raw resources.\n82.1\t Trade goods and commodities are represented \nby opposite sides of the same token.\n82.2\t When a player gains a trade good, they take a \ntrade good token from the supply and place it on the trade good \narea on their command sheet, making sure the trade good side \nis faceup.\n82.3\t A player can spend trade goods at any time during the game.\n82.4\t A player can spend a trade good in one of the following ways:\n•\t\nIn place of spending one resource.\n•\t\nIn place of spending one influence. However, trade goods \ncannot be spent to cast votes during the agenda phase.\n•\t\nTo resolve an effect that",
+          "original_rank": 5,
+          "cosine_score": 0.48849353194236755,
+          "rerank_score": 6.774152755737305,
+          "reranked_rank": 2
+        },
+        {
+          "id": "p08-t00700",
+          "page": 8,
+          "text": "” step of this phase for a second agenda.\n8.4\t\nSTEP 3—READY PLANETS: Each player readies each of their \nexhausted planets. Then, a new game round begins starting \nwith the strategy phase.\n8.5\t VOTING\nWhen voting during the agenda phase, a player can cast votes for a \nspecific outcome of an agenda.\n8.6\t\nTo cast votes, a player exhausts any number of their planets and \nchooses an outcome. The number of votes cast for that outcome \nis equal to the combined influence values of the planets that the \nplayer exhausts.\n•\t\nWhen a player exhausts a planet to cast votes, that player \nmust cast the full amount of votes provided by that planet.\n8.7\t\nA player cannot cast votes for multiple outcomes of the same \nagenda. Each vote a player casts must be for the same outcome.\n8.8\t\nSome agendas have “For” and “Against” outcomes",
+          "original_rank": 6,
+          "cosine_score": 0.46789610385894775,
+          "rerank_score": 0.07634273171424866,
+          "reranked_rank": 5
+        },
+        {
+          "id": "p08-t00840",
+          "page": 8,
+          "text": "A player cannot cast votes for multiple outcomes of the same \nagenda. Each vote a player casts must be for the same outcome.\n8.8\t\nSome agendas have “For” and “Against” outcomes. When a \nplayer casts votes on such an agenda, that player must cast their \nvotes either “For” or “Against.”",
+          "original_rank": 7,
+          "cosine_score": 0.4674169421195984,
+          "rerank_score": -4.266420841217041,
+          "reranked_rank": 9
+        },
+        {
+          "id": "p08-t00420",
+          "page": 8,
+          "text": "agenda card discard pile.\n8\n7.6\t\nIf an “Against” outcome of a law received the most votes, \nplayers resolve the outcome and discard the agenda.\n7.7\t\nDirectives provide one-time game effects.\n7.8\t\nWhen resolving a directive, players resolve the outcome that \nreceived the most votes and discard the agenda card.\nRELATED TOPICS: Agenda Phase, Attach, Victory Points\n8\t AGENDA PHASE\nDuring the agenda phase, players can cast votes on agendas that can \nchange the rules of the game.\n8.1\t\nPlayers skip the agenda phase during the early portion of each \ngame. After the custodians token is removed from Mecatol \nRex, the agenda phase is added to each game round. To resolve \nthe agenda phase, players perform the following steps:\n8.2\t\nSTEP 1—FIRST AGENDA: Players resolve the first agenda by \nfollowing these steps in order:\ni.",
+          "original_rank": 8,
+          "cosine_score": 0.4407905340194702,
+          "rerank_score": -0.7696787118911743,
+          "reranked_rank": 6
+        },
+        {
+          "id": "p08-t00560",
+          "page": 8,
+          "text": "to each game round. To resolve \nthe agenda phase, players perform the following steps:\n8.2\t\nSTEP 1—FIRST AGENDA: Players resolve the first agenda by \nfollowing these steps in order:\ni.\t REVEAL AGENDA: The speaker draws one agenda card\nfrom the top of the agenda deck and reads it aloud to \nall players, including all of its possible outcomes.\nii.\tVOTE: Each player, starting with the player to the left\nof the speaker and continuing clockwise, can cast votes \nfor an outcome of the current agenda.\niii.\tRESOLVE OUTCOME: Players tally each vote that was\ncast and resolve the outcome that received the most \nvotes.\n8.3\t\nSTEP 2—SECOND AGENDA: Players repeat the “First \nAgenda” step of this phase for a second agenda.\n8.4\t\nSTEP 3—READY PLANETS: Each player readies each of their \nexhausted planets. Then, a new game round begins starting \nwith the strategy",
+          "original_rank": 9,
+          "cosine_score": 0.41235673427581787,
+          "rerank_score": -1.7886234521865845,
+          "reranked_rank": 7
+        },
+        {
+          "id": "p09-t00280",
+          "page": 9,
+          "text": "there is a tie for the outcome that received the most votes, or \nif no outcome receives any votes, the speaker decides which of \nthe tied outcomes to resolve.\n•\t\nThe speaker’s decision is not a vote.\n8.20\t If an “Elect” or “For” outcome of a law was resolved, that card \nremains in play and permanently affects the game.\n8.21\t If a directive or an “Against” outcome of a law was resolved, \nthat card is placed in the agenda discard pile.\n8.22\t Some game effects instruct a player to predict an outcome. To \npredict an outcome, a player declares aloud the outcome they \nthink will receive the most votes. That player must make this \nprediction after the agenda is revealed but before any votes \nhave been cast.\n•\t\nA predicted outcome must be a possible outcome of the \nrevealed agenda.\n•\t\nAfter resolving the outcome of the agenda, any abilities",
+          "original_rank": 10,
+          "cosine_score": 0.4056641459465027,
+          "rerank_score": -8.121112823486328,
+          "reranked_rank": 10
+        }
+      ],
+      "baseline_context": "[Chunk p29-t00840 | PDF page 29]\nfollowing ways:\n•\t\nIn place of spending one resource.\n•\t\nIn place of spending one influence. However, trade goods \ncannot be spent to cast votes during the agenda phase.\n•\t\nTo resolve an effect that specifically requires that a trade \ngood be spent.\n82.5\t A player can exchange their trade goods with other players \nduring a transaction.\n82.6\t When a player receives a commodity token from another \nplayer, the player who received that token places it in their \ntrade good area with the trade good side of the token faceup.\n•\t\nThat token is no longer a commodity token; it is a trade \ngood token.\n82.7\t Trade good tokens come in values of one and three. A player \ncan swap between these tokens as necessary.\nRELATED TOPICS: Commodities, Deals, Influence, Resources, \nTransactions\n29\n\n[Chunk p09-t00140 | PDF page 9]\n, a player must declare aloud the outcome \nfor which their votes are being cast.\n8.13\t Trade goods cannot be spent to cast votes.\n8.14\t A player may choose to abstain by not casting any votes.\n8.15\t Some game effects allow a player to cast additional votes for \nan outcome. These votes cannot be cast for a different outcome \nthan other votes cast by that player.\n8.16\t If a player cannot vote on an agenda because of a game effect, \nthat player cannot cast votes for that agenda by exhausting \nplanets or through any other game effect.\n8.17\t OUTCOMES\n8.18\t To resolve an outcome, the speaker follows the instructions on \nthe agenda card.\n8.19\t If there is a tie for the outcome that received the most votes, or \nif no outcome receives any votes, the speaker decides which of \nthe tied outcomes to resolve.\n•\t\nThe speaker’s decision is not\n\n[Chunk p09-t00000 | PDF page 9]\n8.9\t\nSome agendas instruct players to elect either a player or a planet. \nWhen a player casts votes for such an agenda, that player must \ncast their vote for an eligible player or planet as described on \nthe agenda.\n8.10\t When electing a player, a player can cast votes for themselves.\n•\t\nWhen resolving these agendas, the “elected player” is the \nplayer for whom the most votes are cast.\n8.11\t When electing a planet, a player must cast votes for a planet \nthat is controlled by a player.\n•\t\nWhen resolving these agendas, the “elected planet” is the \nplanet that had the most votes cast for it.\n8.12\t When casting votes, a player must declare aloud the outcome \nfor which their votes are being cast.\n8.13\t Trade goods cannot be spent to cast votes.\n8.14\t A player may choose to abstain by not",
+      "reranked_context": "[Chunk p29-t00840 | PDF page 29]\nfollowing ways:\n•\t\nIn place of spending one resource.\n•\t\nIn place of spending one influence. However, trade goods \ncannot be spent to cast votes during the agenda phase.\n•\t\nTo resolve an effect that specifically requires that a trade \ngood be spent.\n82.5\t A player can exchange their trade goods with other players \nduring a transaction.\n82.6\t When a player receives a commodity token from another \nplayer, the player who received that token places it in their \ntrade good area with the trade good side of the token faceup.\n•\t\nThat token is no longer a commodity token; it is a trade \ngood token.\n82.7\t Trade good tokens come in values of one and three. A player \ncan swap between these tokens as necessary.\nRELATED TOPICS: Commodities, Deals, Influence, Resources, \nTransactions\n29\n\n[Chunk p29-t00700 | PDF page 29]\nto \nreplenish their commodities.\nRELATED TOPICS: Command Tokens, Commodities, Initiative \nOrder, Strategic Action, Strategy Card, Trade Goods\n82\t TRADE GOODS\nA trade good represents a player’s buying and \ntrading power beyond their planet’s raw resources.\n82.1\t Trade goods and commodities are represented \nby opposite sides of the same token.\n82.2\t When a player gains a trade good, they take a \ntrade good token from the supply and place it on the trade good \narea on their command sheet, making sure the trade good side \nis faceup.\n82.3\t A player can spend trade goods at any time during the game.\n82.4\t A player can spend a trade good in one of the following ways:\n•\t\nIn place of spending one resource.\n•\t\nIn place of spending one influence. However, trade goods \ncannot be spent to cast votes during the agenda phase.\n•\t\nTo resolve an effect that\n\n[Chunk p09-t00140 | PDF page 9]\n, a player must declare aloud the outcome \nfor which their votes are being cast.\n8.13\t Trade goods cannot be spent to cast votes.\n8.14\t A player may choose to abstain by not casting any votes.\n8.15\t Some game effects allow a player to cast additional votes for \nan outcome. These votes cannot be cast for a different outcome \nthan other votes cast by that player.\n8.16\t If a player cannot vote on an agenda because of a game effect, \nthat player cannot cast votes for that agenda by exhausting \nplanets or through any other game effect.\n8.17\t OUTCOMES\n8.18\t To resolve an outcome, the speaker follows the instructions on \nthe agenda card.\n8.19\t If there is a tie for the outcome that received the most votes, or \nif no outcome receives any votes, the speaker decides which of \nthe tied outcomes to resolve.\n•\t\nThe speaker’s decision is not",
+      "answers": {
+        "baseline": "No, trade goods cannot be spent to cast votes during the agenda phase (PDF page 29).",
+        "reranked": "No, trade goods cannot be spent to cast votes during the agenda phase. \n\nSupporting PDF page numbers: **PDF page 9** and **PDF page 29**."
+      },
+      "answer_errors": {
+        "baseline": null,
+        "reranked": null
+      },
+      "latency_ms": {
+        "query_embedding": 10.402179999800865,
+        "vector_search": 0.10372500037192367,
+        "reranking": 200.3753909993975,
+        "baseline_generation": 1228.511997998794,
+        "reranked_generation": 783.5158120014967
+      }
+    },
+    {
+      "question": "May a player spend commodities directly, without trading them first?",
+      "evidence": "A player cannot spend commodities",
+      "candidates": [
+        {
+          "id": "p29-t00560",
+          "page": 29,
+          "text": "commodities than the \ncommodity value printed on their faction sheet.\n81.4\t STEP 3—The active player chooses any number of other \nplayers. Those players use the secondary ability of this card \nwithout spending a command token.\n•\t\nThe chosen players must resolve the secondary ability of \nthis card without spending a command token after the active \nplayer finishes resolving the primary ability.\n•\t\nThe chosen players can only use the secondary ability once, \nand they cannot use it by spending command tokens.\n81.5\t After the active player resolves the primary ability of the \n“Trade” strategy card, each other player, beginning with the \nplayer to the left of the active player and proceeding clockwise, \nmay spend one command token from their strategy pool to \nreplenish their commodities.\nRELATED TOPICS: Command Tokens, Commodities, Initiative \nOrder, Strategic Action, Strategy Card, Trade Goods\n82\t TRADE GOODS\nA trade good represents a player’s buying and",
+          "original_rank": 1,
+          "cosine_score": 0.639045238494873,
+          "rerank_score": 4.272271156311035,
+          "reranked_rank": 1
+        },
+        {
+          "id": "p11-t01120",
+          "page": 11,
+          "text": "faction \nsheet.\n20.4\t When a player replenishes commodities, that player takes the \ncommodity tokens from the supply.\n20.5\t Players can trade commodities following the rules for \ntransactions. When a player receives a commodity from \nanother player, the player who received that token converts it \ninto a trade good by placing it in the trade good area of their \ncommand sheet with the trade good side faceup.\n•\t\nThat token is no longer a commodity token; it is a trade \ngood token.\n•\t\nA player can trade commodity tokens before resolving a \ngame effect that allows them to replenish commodities.\n11",
+          "original_rank": 2,
+          "cosine_score": 0.6157405376434326,
+          "rerank_score": 2.471620798110962,
+          "reranked_rank": 3
+        },
+        {
+          "id": "p29-t00700",
+          "page": 29,
+          "text": "to \nreplenish their commodities.\nRELATED TOPICS: Command Tokens, Commodities, Initiative \nOrder, Strategic Action, Strategy Card, Trade Goods\n82\t TRADE GOODS\nA trade good represents a player’s buying and \ntrading power beyond their planet’s raw resources.\n82.1\t Trade goods and commodities are represented \nby opposite sides of the same token.\n82.2\t When a player gains a trade good, they take a \ntrade good token from the supply and place it on the trade good \narea on their command sheet, making sure the trade good side \nis faceup.\n82.3\t A player can spend trade goods at any time during the game.\n82.4\t A player can spend a trade good in one of the following ways:\n•\t\nIn place of spending one resource.\n•\t\nIn place of spending one influence. However, trade goods \ncannot be spent to cast votes during the agenda phase.\n•\t\nTo resolve an effect that",
+          "original_rank": 3,
+          "cosine_score": 0.5685239434242249,
+          "rerank_score": 1.9001410007476807,
+          "reranked_rank": 6
+        },
+        {
+          "id": "p11-t00980",
+          "page": 11,
+          "text": "entiful for \ntheir own faction and are desired by other factions. \nA commodity has no inherent game effects, but \nconverts into a trade good if given to or received \nfrom another player.\n20.1\t Commodities and trade goods are represented by opposite sides \nof the same token.\n20.2\t The commodity value on a player’s faction sheet indicates the \nmaximum number of commodities that player can have.\n20.3\t When an effect instructs a player to replenish commodities, \nthat player takes the number of commodity tokens necessary \nso that the amount of commodities that player has equals the \ncommodity value on their faction sheet. Then, those tokens are \nplaced faceup in the commodity area of that player’s faction \nsheet.\n20.4\t When a player replenishes commodities, that player takes the \ncommodity tokens from the supply.\n20.5\t Players can trade commodities following the rules for \ntransactions. When",
+          "original_rank": 4,
+          "cosine_score": 0.5626077651977539,
+          "rerank_score": 0.25087469816207886,
+          "reranked_rank": 9
+        },
+        {
+          "id": "p29-t00840",
+          "page": 29,
+          "text": "following ways:\n•\t\nIn place of spending one resource.\n•\t\nIn place of spending one influence. However, trade goods \ncannot be spent to cast votes during the agenda phase.\n•\t\nTo resolve an effect that specifically requires that a trade \ngood be spent.\n82.5\t A player can exchange their trade goods with other players \nduring a transaction.\n82.6\t When a player receives a commodity token from another \nplayer, the player who received that token places it in their \ntrade good area with the trade good side of the token faceup.\n•\t\nThat token is no longer a commodity token; it is a trade \ngood token.\n82.7\t Trade good tokens come in values of one and three. A player \ncan swap between these tokens as necessary.\nRELATED TOPICS: Commodities, Deals, Influence, Resources, \nTransactions\n29",
+          "original_rank": 5,
+          "cosine_score": 0.5290793180465698,
+          "rerank_score": 1.9688206911087036,
+          "reranked_rank": 5
+        },
+        {
+          "id": "p29-t00420",
+          "page": 29,
+          "text": "initiative value is “5.”\n81.1\t During the action phase, if the active player has the “Trade” \nstrategy card, they can perform a strategic action to resolve \nthat card’s primary ability. To resolve the primary ability on the \n“Trade” strategy card, the active player resolves the following \neffects in order:\n81.2\t STEP 1—The active player gains 3 trade goods.\n81.3\t STEP 2—The active player replenishes their commodities by \ntaking the number of commodity tokens necessary to have an \namount equal to the commodity value on their faction sheet. \nThen, they place those tokens in the commodity area of their \nfaction sheet.\n•\t\nA player cannot have more commodities than the \ncommodity value printed on their faction sheet.\n81.4\t STEP 3—The active player chooses any number of other \nplayers. Those players use the secondary ability of this card \nwithout spending a command",
+          "original_rank": 6,
+          "cosine_score": 0.49758201837539673,
+          "rerank_score": 0.6867872476577759,
+          "reranked_rank": 8
+        },
+        {
+          "id": "p12-t00000",
+          "page": 12,
+          "text": "20.6\t Any game effect that instructs a player to give a commodity to \nanother player causes that commodity to be converted into a \ntrade good.\n20.7\t A player cannot spend commodities; a player can only trade \nthem during a transaction.\n20.8\t Commodity tokens come in values of one and three. A player \ncan swap between these tokens as necessary.\nRELATED TOPICS: Deals, Trade Goods, Transactions\n21\t COMPONENT ACTION\nA component action is a type of action that a player can perform \nduring their turn of an action phase.\n21.1\t Component actions can be found on various game components, \nincluding action cards, technology cards, and faction sheets. \nEach component action is indicated by an “Action” header.\n21.2\t To perform a component action, a player reads the action’s text \nand follows the instructions as described.\n21.3\t A component action cannot be performed if its ability cannot",
+          "original_rank": 7,
+          "cosine_score": 0.4792369604110718,
+          "rerank_score": 3.493774890899658,
+          "reranked_rank": 2
+        },
+        {
+          "id": "p30-t00000",
+          "page": 30,
+          "text": "83\t TRANSACTIONS\nA transaction is a way for a player to exchange commodities, trade \ngoods, and promissory notes.\n83.1\t During the active player’s turn, they may resolve up to one \ntransaction with each of their neighbors.\n•\t\nA player can resolve a transaction at any time during their \nturn, even during a combat.\n83.2\t To resolve a transaction, a player gives any number of trade \ngoods and commodities and up to one promissory note to \na neighbor in exchange for any number of trade goods and \ncommodities and up to one promissory note.\n83.3\t Players can exchange commodities, trade goods and promissory \nnotes, but cannot exchange other types of cards or tokens.\n•\t\nThe Emirates of Hacan can also exchange action cards with \nother players as part of their transactions.\n83.4\t A transaction does not have to be even. A player may exchange \ncomponents of une",
+          "original_rank": 8,
+          "cosine_score": 0.457628458738327,
+          "rerank_score": 2.0703299045562744,
+          "reranked_rank": 4
+        },
+        {
+          "id": "p30-t00140",
+          "page": 30,
+          "text": ".\n•\t\nThe Emirates of Hacan can also exchange action cards with \nother players as part of their transactions.\n83.4\t A transaction does not have to be even. A player may exchange \ncomponents of unequal value or give components without \nreceiving something in return.\n•\t\nThe players agree on the terms of the transaction before \nexchanging any components. After the components are \ntraded, the transaction cannot be undone.\n83.5\t Players can resolve a transaction as part of a deal.\n83.6\t While resolving each agenda during the agenda phase, a player \nmay perform one transaction with each other player.\n•\t\nPlayers do not need to be neighbors to perform these \ntransactions.\nRELATED TOPICS: Commodities, Deals, Neighbors, Promissory \nNotes, Trade Goods\n84\t TRANSPORT\nWhen a ship moves, it may transport any combination of fighters \nand ground forces, but the number of units it transports cannot \nexceed that ship’s capacity value.\n84.",
+          "original_rank": 9,
+          "cosine_score": 0.45161738991737366,
+          "rerank_score": 1.4680243730545044,
+          "reranked_rank": 7
+        },
+        {
+          "id": "p22-t00140",
+          "page": 22,
+          "text": "note cards that \ncan be given to other players.\nTRADE\nAGREEMENT\nWhen the green player\nreplenishes commodities:\nThe green player gives you all \nof their commodities.\n60.1\t Each promissory note contains timing \ntext and ability text. A player can resolve \nany of their promissory note cards by \nfollowing the text on the card.\nThen, return this card to the \ngreen player.\n•\t\nPromissory notes are not mandatory \nunless otherwise specified.\n60.2\t A player cannot play their color’s or faction’s promissory notes. \nSince the cards are only valuable to other players, promissory \nnotes can be traded as powerful negotiation tools.\n60.3\t Promissory notes that are returned to a player are returned after \ntheir abilities have been completely resolved.\n60.4\t If a promissory note is returned to a player, that player may \ngive it to other players again as part",
+          "original_rank": 10,
+          "cosine_score": 0.4017035961151123,
+          "rerank_score": -0.8953579664230347,
+          "reranked_rank": 10
+        }
+      ],
+      "baseline_context": "[Chunk p29-t00560 | PDF page 29]\ncommodities than the \ncommodity value printed on their faction sheet.\n81.4\t STEP 3—The active player chooses any number of other \nplayers. Those players use the secondary ability of this card \nwithout spending a command token.\n•\t\nThe chosen players must resolve the secondary ability of \nthis card without spending a command token after the active \nplayer finishes resolving the primary ability.\n•\t\nThe chosen players can only use the secondary ability once, \nand they cannot use it by spending command tokens.\n81.5\t After the active player resolves the primary ability of the \n“Trade” strategy card, each other player, beginning with the \nplayer to the left of the active player and proceeding clockwise, \nmay spend one command token from their strategy pool to \nreplenish their commodities.\nRELATED TOPICS: Command Tokens, Commodities, Initiative \nOrder, Strategic Action, Strategy Card, Trade Goods\n82\t TRADE GOODS\nA trade good represents a player’s buying and\n\n[Chunk p11-t01120 | PDF page 11]\nfaction \nsheet.\n20.4\t When a player replenishes commodities, that player takes the \ncommodity tokens from the supply.\n20.5\t Players can trade commodities following the rules for \ntransactions. When a player receives a commodity from \nanother player, the player who received that token converts it \ninto a trade good by placing it in the trade good area of their \ncommand sheet with the trade good side faceup.\n•\t\nThat token is no longer a commodity token; it is a trade \ngood token.\n•\t\nA player can trade commodity tokens before resolving a \ngame effect that allows them to replenish commodities.\n11\n\n[Chunk p29-t00700 | PDF page 29]\nto \nreplenish their commodities.\nRELATED TOPICS: Command Tokens, Commodities, Initiative \nOrder, Strategic Action, Strategy Card, Trade Goods\n82\t TRADE GOODS\nA trade good represents a player’s buying and \ntrading power beyond their planet’s raw resources.\n82.1\t Trade goods and commodities are represented \nby opposite sides of the same token.\n82.2\t When a player gains a trade good, they take a \ntrade good token from the supply and place it on the trade good \narea on their command sheet, making sure the trade good side \nis faceup.\n82.3\t A player can spend trade goods at any time during the game.\n82.4\t A player can spend a trade good in one of the following ways:\n•\t\nIn place of spending one resource.\n•\t\nIn place of spending one influence. However, trade goods \ncannot be spent to cast votes during the agenda phase.\n•\t\nTo resolve an effect that",
+      "reranked_context": "[Chunk p29-t00560 | PDF page 29]\ncommodities than the \ncommodity value printed on their faction sheet.\n81.4\t STEP 3—The active player chooses any number of other \nplayers. Those players use the secondary ability of this card \nwithout spending a command token.\n•\t\nThe chosen players must resolve the secondary ability of \nthis card without spending a command token after the active \nplayer finishes resolving the primary ability.\n•\t\nThe chosen players can only use the secondary ability once, \nand they cannot use it by spending command tokens.\n81.5\t After the active player resolves the primary ability of the \n“Trade” strategy card, each other player, beginning with the \nplayer to the left of the active player and proceeding clockwise, \nmay spend one command token from their strategy pool to \nreplenish their commodities.\nRELATED TOPICS: Command Tokens, Commodities, Initiative \nOrder, Strategic Action, Strategy Card, Trade Goods\n82\t TRADE GOODS\nA trade good represents a player’s buying and\n\n[Chunk p12-t00000 | PDF page 12]\n20.6\t Any game effect that instructs a player to give a commodity to \nanother player causes that commodity to be converted into a \ntrade good.\n20.7\t A player cannot spend commodities; a player can only trade \nthem during a transaction.\n20.8\t Commodity tokens come in values of one and three. A player \ncan swap between these tokens as necessary.\nRELATED TOPICS: Deals, Trade Goods, Transactions\n21\t COMPONENT ACTION\nA component action is a type of action that a player can perform \nduring their turn of an action phase.\n21.1\t Component actions can be found on various game components, \nincluding action cards, technology cards, and faction sheets. \nEach component action is indicated by an “Action” header.\n21.2\t To perform a component action, a player reads the action’s text \nand follows the instructions as described.\n21.3\t A component action cannot be performed if its ability cannot\n\n[Chunk p11-t01120 | PDF page 11]\nfaction \nsheet.\n20.4\t When a player replenishes commodities, that player takes the \ncommodity tokens from the supply.\n20.5\t Players can trade commodities following the rules for \ntransactions. When a player receives a commodity from \nanother player, the player who received that token converts it \ninto a trade good by placing it in the trade good area of their \ncommand sheet with the trade good side faceup.\n•\t\nThat token is no longer a commodity token; it is a trade \ngood token.\n•\t\nA player can trade commodity tokens before resolving a \ngame effect that allows them to replenish commodities.\n11",
+      "answers": {
+        "baseline": "You cannot determine it from the supplied context.",
+        "reranked": "No, a player cannot spend commodities directly. According to the context, a player cannot spend commodities and can only trade them during a transaction (PDF page 12, rule 20.7)."
+      },
+      "answer_errors": {
+        "baseline": null,
+        "reranked": null
+      },
+      "latency_ms": {
+        "query_embedding": 14.345765999678406,
+        "vector_search": 0.13183699957153294,
+        "reranking": 264.8388849993353,
+        "baseline_generation": 672.4518070004706,
+        "reranked_generation": 778.6029279996001
+      }
+    },
+    {
+      "question": "Can ships move through an asteroid field if they do not stop there?",
+      "evidence": "A ship cannot move through or into an asteroid field",
+      "candidates": [
+        {
+          "id": "p10-t00000",
+          "page": 10,
+          "text": "11\t ASTEROID FIELD\nAn asteroid field is an anomaly that affects movement.\n11.1\t A ship cannot move through or into an asteroid field.\nRELATED TOPICS: Anomalies\n12\t ATTACH\nSome game effects instruct a player to attach a card to a planet card. \nThe attached card modifies that planet card in some way.\n12.1\t To attach a card to a planet card, a player places the card with \nthe attach effect partially underneath the planet card.\n12.2\t If a player gains or loses control of planet that contains a card \nwith an attach effect, the attached card stays with that planet.\n•\t\nThe attached card maintains its exhausted or readied state.\nRELATED TOPICS: Agenda Card, Control, Planets\n13\t ATTACKER\nDuring combat, the active player is the attacker.\nRELATED TOPICS: Defender, Invasion, Space Combat\n14\t BLOCKADED\nA player’s unit with “Production” is blockaded if it is in",
+          "original_rank": 1,
+          "cosine_score": 0.5037627220153809,
+          "rerank_score": 5.321834564208984,
+          "reranked_rank": 1
+        },
+        {
+          "id": "p11-t00280",
+          "page": 11,
+          "text": "by that \nplayer to perform strategic and tactical actions and to increase \nthe number of ships that player can have in each system.\nSTRATEGY\nSTATUS PHASE\n      1)  Score Objectives\nANOMALIES\n      Asteroid Field\n2)  Reveal Public Objective \n3) Draw Action Cards \n4) Remove Command Tokens \n5) Gain and Redistribute Tokens \n6) Ready Cards \n7) Repair Units \n8)  Return Strategy Cards\n• Ships Cannot Move Through or Into \nNebula \n  • Ships Cannot Move Through \n  • Ships In Nebula Move Set to 1 \n  • +1 Combat Die Results to  \n \nDefender Within Nebula \nSupernova \n  • Ships Cannot Move Through or Into \nGravity Rift \n  • Each Ship Moving Through or Out  \n    of Applies +1 Move and Rolls 1 die;  \n    Unit is Destroyed on Result of 1–3.\nTRADE GOODS\nSTRATEGY\nANOMALIES\n      Asteroid Field\n• Ships Cannot Move Through or Into \nNebula \n  • Ships Cannot Move Through \n  • Ships In Nebula Move Set to 1 \n  • +1 Combat Die Results",
+          "original_rank": 2,
+          "cosine_score": 0.4332433044910431,
+          "rerank_score": 4.084949016571045,
+          "reranked_rank": 3
+        },
+        {
+          "id": "p18-t00420",
+          "page": 18,
+          "text": "a ship can move.\n18\nTo resolve movement, players perform the following steps:\n49.4\t STEP 1—MOVE SHIPS: A player can move any number of their \neligible ships into the active system, obeying the following rules:\n•\t\nThe ship must end its movement in the active system.\n•\t\nThe ship cannot move through a system that contains ships \nthat are controlled by another player.\n•\t\nThe ship cannot move if it started its movement in another \nsystem that contains one of its faction’s command tokens.\n•\t\nThe ship can move through systems that contain its own \nfaction’s command tokens.\n•\t\nThe ship can move out of the active system and back into it \nif its move value is high enough.\n•\t\nThe ship must move along a path of adjacent systems, and \nthe number of systems the ship enters cannot exceed its \nmove value.\n49.5\t When a ship with a capacity value moves or is",
+          "original_rank": 3,
+          "cosine_score": 0.42323482036590576,
+          "rerank_score": -1.2062069177627563,
+          "reranked_rank": 4
+        },
+        {
+          "id": "p18-t00560",
+          "page": 18,
+          "text": ".\n•\t\nThe ship must move along a path of adjacent systems, and \nthe number of systems the ship enters cannot exceed its \nmove value.\n49.5\t When a ship with a capacity value moves or is moved, it may \ntransport ground forces and fighters.\n49.6\t The active player declares which of their ships are moving \nbefore any ships move. Those ships arrive in the active system \nsimultaneously.\n49.7\t STEP 2—SPACE CANNON OFFENSE: After the “Move \nShips” step, players can use the “Space Cannon” abilities of \ntheir units in the active system.\n49.8\t ABILITY MOVEMENT\n49.9\t If an ability moves a unit outside of the “Movement” step of a \ntactical action, players follow the rules specified by that ability; \nneither a unit’s move value nor the rules specified above apply.\nRELATED TOPICS: Action Phase, Active System, Capacity, Space \nCannon, Tactical Action, Transport\n50",
+          "original_rank": 4,
+          "cosine_score": 0.37153393030166626,
+          "rerank_score": -3.880064010620117,
+          "reranked_rank": 7
+        },
+        {
+          "id": "p15-t00700",
+          "page": 15,
+          "text": "dians \nToken, Status Phase, Strategy Phase\n37\t GRAVITY RIFT\nA gravity rift is an anomaly that affects movement.\n37.1\t A ship that will move out of or through a gravity rift at any \ntime during its movement, applies +1 to its move value.\n•\t\nThis can allow a ship to reach the active system from farther \naway than it normally could.\n37.2\t For each ship that would move out of or through a gravity rift, \none die is rolled immediately before it exits the gravity rift \nsystem; on a result of 1–3, that ship is removed from the board.\n•\t\nDice are not rolled for units that are being transported by \nships that have capacity.\n•\t\nUnits that are being transported are removed from the board \nif the ship transporting them is removed from the board.\n•\t\nUnits that are removed are returned to the player’s \nreinforcements.\n37.3\t A gravity rift can affect the same",
+          "original_rank": 5,
+          "cosine_score": 0.35673654079437256,
+          "rerank_score": -4.990523338317871,
+          "reranked_rank": 8
+        },
+        {
+          "id": "p15-t00840",
+          "page": 15,
+          "text": "are removed from the board \nif the ship transporting them is removed from the board.\n•\t\nUnits that are removed are returned to the player’s \nreinforcements.\n37.3\t A gravity rift can affect the same ship multiple times during a \nsingle movement.\nRELATED TOPICS: Anomalies, Movement\n15",
+          "original_rank": 6,
+          "cosine_score": 0.3542943596839905,
+          "rerank_score": -8.014785766601562,
+          "reranked_rank": 10
+        },
+        {
+          "id": "p24-t00700",
+          "page": 24,
+          "text": "not occur.\n•\t\nTo retreat, a player takes all of their ships in the combat and \nmoves them to a single system that is adjacent to the active \nsystem. That player’s fighters and ground forces in the \nspace area of the active system that are unable to move or \nbe transported are destroyed.\n•\t\nThe system that a player’s units retreat to must contain one \nor more of that player’s units, a planet they control, or both. \nAdditionally, the system cannot contain ships controlled by \nanother player.\n•\t\nIf any of a player’s units successfully retreat and are moved \ninto an adjacent system, that player must place a command \ntoken from their reinforcements in the system to which \ntheir units retreated. If that system already contains one \nof their command tokens, that player does not place an \nadditional token there. If the player has no command tokens \nin their reinforcements, that player must use one from",
+          "original_rank": 7,
+          "cosine_score": 0.34435713291168213,
+          "rerank_score": -2.6256299018859863,
+          "reranked_rank": 5
+        },
+        {
+          "id": "p27-t00700",
+          "page": 27,
+          "text": "that system. That system is \nthe active system.\n•\t\nOther players’ command tokens do not prevent a player \nfrom activating a system.\n78.2\t STEP 2—MOVEMENT: The active player may move any \nnumber of ships that have a sufficient move value from any \nnumber of systems that do not contain one of their command \ntokens into the active system, following the rules for \nmovement.\n•\t\nShips that have capacity values can transport ground forces \nand fighters when moving.\n•\t\nThe player may choose to not move any ships.\n•\t\nAfter the “Move Ships” step, all players can use the “Space \nCannon” abilities of their units in the active system.\n78.3\t STEP 3—SPACE COMBAT: If two players have ships in the \nactive system, those players must resolve a space combat.\n•\t\nIf the active player is the only player with ships in the \nsystem, they skip this step.\n78.4",
+          "original_rank": 8,
+          "cosine_score": 0.33754974603652954,
+          "rerank_score": -3.070765256881714,
+          "reranked_rank": 6
+        },
+        {
+          "id": "p30-t00280",
+          "page": 30,
+          "text": "Notes, Trade Goods\n84\t TRANSPORT\nWhen a ship moves, it may transport any combination of fighters \nand ground forces, but the number of units it transports cannot \nexceed that ship’s capacity value.\n84.1\t The ship can pick up and transport fighters and ground forces \nwhen it moves. During a tactical action, it can pick up and \ntransport units from the active system, the system it started its \nmovement in, and each system it moves through.\n•\t\nThese transported units remain with the transporting ship \nuntil it is finished moving.\n•\t\nUnits being transported by a ship that is removed from the \nboard by a gravity rift are also removed from the board.\n84.2\t Any fighters and ground forces that a ship transports must \nmove with the ship and remain in the space area of a system.\n30\n84.3\t Fighters and ground forces cannot be picked up from a system \nthat contains one of their faction’s command tokens",
+          "original_rank": 9,
+          "cosine_score": 0.337246298789978,
+          "rerank_score": -5.019090175628662,
+          "reranked_rank": 9
+        },
+        {
+          "id": "p11-t00420",
+          "page": 11,
+          "text": "of 1–3.\nTRADE GOODS\nSTRATEGY\nANOMALIES\n      Asteroid Field\n• Ships Cannot Move Through or Into \nNebula \n  • Ships Cannot Move Through \n  • Ships In Nebula Move Set to 1 \n  • +1 Combat Die Results to  \n \nDefender Within Nebula \nSupernova \n  • Ships Cannot Move Through or Into \nGravity Rift \n  • Each Ship Moving Through or Out  \n    of Applies +1 Move and Rolls 1 die;  \n    Unit is Destroyed on Result of 1–3.\nTRADE GOODS\n18.2\t The trade good area on the command sheet is where a player \nplaces their trade good tokens; trade tokens in a player’s trade \ngood area can be spent by that player as resources, influence, or \nto resolve certain game effects that require trade goods.\n18.3\t Players who are familiar with the game can hide the quick \nreference by placing that portion of the command sheet under \ntheir faction sheets.\nRELATED TOPICS: Command Tokens, Fleet Pool, Strategic Action,",
+          "original_rank": 10,
+          "cosine_score": 0.3321717381477356,
+          "rerank_score": 4.806351661682129,
+          "reranked_rank": 2
+        }
+      ],
+      "baseline_context": "[Chunk p10-t00000 | PDF page 10]\n11\t ASTEROID FIELD\nAn asteroid field is an anomaly that affects movement.\n11.1\t A ship cannot move through or into an asteroid field.\nRELATED TOPICS: Anomalies\n12\t ATTACH\nSome game effects instruct a player to attach a card to a planet card. \nThe attached card modifies that planet card in some way.\n12.1\t To attach a card to a planet card, a player places the card with \nthe attach effect partially underneath the planet card.\n12.2\t If a player gains or loses control of planet that contains a card \nwith an attach effect, the attached card stays with that planet.\n•\t\nThe attached card maintains its exhausted or readied state.\nRELATED TOPICS: Agenda Card, Control, Planets\n13\t ATTACKER\nDuring combat, the active player is the attacker.\nRELATED TOPICS: Defender, Invasion, Space Combat\n14\t BLOCKADED\nA player’s unit with “Production” is blockaded if it is in\n\n[Chunk p11-t00280 | PDF page 11]\nby that \nplayer to perform strategic and tactical actions and to increase \nthe number of ships that player can have in each system.\nSTRATEGY\nSTATUS PHASE\n      1)  Score Objectives\nANOMALIES\n      Asteroid Field\n2)  Reveal Public Objective \n3) Draw Action Cards \n4) Remove Command Tokens \n5) Gain and Redistribute Tokens \n6) Ready Cards \n7) Repair Units \n8)  Return Strategy Cards\n• Ships Cannot Move Through or Into \nNebula \n  • Ships Cannot Move Through \n  • Ships In Nebula Move Set to 1 \n  • +1 Combat Die Results to  \n \nDefender Within Nebula \nSupernova \n  • Ships Cannot Move Through or Into \nGravity Rift \n  • Each Ship Moving Through or Out  \n    of Applies +1 Move and Rolls 1 die;  \n    Unit is Destroyed on Result of 1–3.\nTRADE GOODS\nSTRATEGY\nANOMALIES\n      Asteroid Field\n• Ships Cannot Move Through or Into \nNebula \n  • Ships Cannot Move Through \n  • Ships In Nebula Move Set to 1 \n  • +1 Combat Die Results\n\n[Chunk p18-t00420 | PDF page 18]\na ship can move.\n18\nTo resolve movement, players perform the following steps:\n49.4\t STEP 1—MOVE SHIPS: A player can move any number of their \neligible ships into the active system, obeying the following rules:\n•\t\nThe ship must end its movement in the active system.\n•\t\nThe ship cannot move through a system that contains ships \nthat are controlled by another player.\n•\t\nThe ship cannot move if it started its movement in another \nsystem that contains one of its faction’s command tokens.\n•\t\nThe ship can move through systems that contain its own \nfaction’s command tokens.\n•\t\nThe ship can move out of the active system and back into it \nif its move value is high enough.\n•\t\nThe ship must move along a path of adjacent systems, and \nthe number of systems the ship enters cannot exceed its \nmove value.\n49.5\t When a ship with a capacity value moves or is",
+      "reranked_context": "[Chunk p10-t00000 | PDF page 10]\n11\t ASTEROID FIELD\nAn asteroid field is an anomaly that affects movement.\n11.1\t A ship cannot move through or into an asteroid field.\nRELATED TOPICS: Anomalies\n12\t ATTACH\nSome game effects instruct a player to attach a card to a planet card. \nThe attached card modifies that planet card in some way.\n12.1\t To attach a card to a planet card, a player places the card with \nthe attach effect partially underneath the planet card.\n12.2\t If a player gains or loses control of planet that contains a card \nwith an attach effect, the attached card stays with that planet.\n•\t\nThe attached card maintains its exhausted or readied state.\nRELATED TOPICS: Agenda Card, Control, Planets\n13\t ATTACKER\nDuring combat, the active player is the attacker.\nRELATED TOPICS: Defender, Invasion, Space Combat\n14\t BLOCKADED\nA player’s unit with “Production” is blockaded if it is in\n\n[Chunk p11-t00420 | PDF page 11]\nof 1–3.\nTRADE GOODS\nSTRATEGY\nANOMALIES\n      Asteroid Field\n• Ships Cannot Move Through or Into \nNebula \n  • Ships Cannot Move Through \n  • Ships In Nebula Move Set to 1 \n  • +1 Combat Die Results to  \n \nDefender Within Nebula \nSupernova \n  • Ships Cannot Move Through or Into \nGravity Rift \n  • Each Ship Moving Through or Out  \n    of Applies +1 Move and Rolls 1 die;  \n    Unit is Destroyed on Result of 1–3.\nTRADE GOODS\n18.2\t The trade good area on the command sheet is where a player \nplaces their trade good tokens; trade tokens in a player’s trade \ngood area can be spent by that player as resources, influence, or \nto resolve certain game effects that require trade goods.\n18.3\t Players who are familiar with the game can hide the quick \nreference by placing that portion of the command sheet under \ntheir faction sheets.\nRELATED TOPICS: Command Tokens, Fleet Pool, Strategic Action,\n\n[Chunk p11-t00280 | PDF page 11]\nby that \nplayer to perform strategic and tactical actions and to increase \nthe number of ships that player can have in each system.\nSTRATEGY\nSTATUS PHASE\n      1)  Score Objectives\nANOMALIES\n      Asteroid Field\n2)  Reveal Public Objective \n3) Draw Action Cards \n4) Remove Command Tokens \n5) Gain and Redistribute Tokens \n6) Ready Cards \n7) Repair Units \n8)  Return Strategy Cards\n• Ships Cannot Move Through or Into \nNebula \n  • Ships Cannot Move Through \n  • Ships In Nebula Move Set to 1 \n  • +1 Combat Die Results to  \n \nDefender Within Nebula \nSupernova \n  • Ships Cannot Move Through or Into \nGravity Rift \n  • Each Ship Moving Through or Out  \n    of Applies +1 Move and Rolls 1 die;  \n    Unit is Destroyed on Result of 1–3.\nTRADE GOODS\nSTRATEGY\nANOMALIES\n      Asteroid Field\n• Ships Cannot Move Through or Into \nNebula \n  • Ships Cannot Move Through \n  • Ships In Nebula Move Set to 1 \n  • +1 Combat Die Results",
+      "answers": {
+        "baseline": "Based on the provided context, no, ships cannot move through an asteroid field (as stated: \"A ship cannot move through or into an asteroid field\" [PDF page 10], and \"Ships Cannot Move Through\" an asteroid field [PDF page 11]). \n\nSources:\n- PDF page 10\n- PDF page 11",
+        "reranked": "No, ships cannot move through an asteroid field (PDF page 10, rule 11.1; PDF page 11)."
+      },
+      "answer_errors": {
+        "baseline": null,
+        "reranked": null
+      },
+      "latency_ms": {
+        "query_embedding": 15.429207998749916,
+        "vector_search": 0.14861800082144327,
+        "reranking": 275.9080460000405,
+        "baseline_generation": 871.14587600081,
+        "reranked_generation": 1072.676413001318
+      }
+    },
+    {
+      "question": "Can a player pass before using their strategy card?",
+      "evidence": "A player cannot pass until they have performed a strategic",
+      "candidates": [
+        {
+          "id": "p26-t00000",
+          "page": 26,
+          "text": "71\t STRATEGIC ACTION\nDuring the action phase, the active player may perform a strategic \naction to resolve the primary ability on their strategy card.\n71.1\t After the active player resolves the primary ability on their \nstrategy card, each other player, beginning with the player to \nthe left of the active player and proceeding clockwise, may \nresolve that strategy card’s secondary ability.\n•\t\nPlayers do not have to resolve the secondary abilities of the \nactive player’s strategy card.\n71.2\t After each player has had an opportunity to resolve a strategy \ncard’s secondary ability, the active player exhausts their \nstrategy card so that it is facedown—this indicates that they \ncannot use this card again this round and is a reminder that they \ncan now pass during one of their later turns.\n•\t\nDuring three- and four-player games, a player must resolve \nthe strategic action on each of their chosen strategy cards \nbefore they can",
+          "original_rank": 1,
+          "cosine_score": 0.5739854574203491,
+          "rerank_score": 6.948977470397949,
+          "reranked_rank": 1
+        },
+        {
+          "id": "p07-t00560",
+          "page": 7,
+          "text": "they have no further turns and cannot \nperform additional actions during that action phase.\n•\t\nDuring a turn that a player passes, they can resolve \ntransactions and “at the start of your turn” abilities.\n•\t\nA player that has passed can still resolve the secondary \nability of other players’ strategy cards.\n•\t\nIt is possible for a player to perform multiple, consecutive \nactions during an action phase if all other players have \npassed during that action phase.\n3.4\t\nA player cannot pass until they have performed a strategic \naction.\n•\t\nDuring a three-player or four-player game, a player cannot \npass until they have exhausted both of their strategy cards.\n3.5\t\nAfter all players have passed, play proceeds to the status phase.\nRELATED TOPICS: Component Action, Game Round, Status Phase, \nStrategic Action, Tactical Action\n4\t ACTIVE PLAYER\nThe active player is the player taking a turn during the action phase.\n4.1",
+          "original_rank": 2,
+          "cosine_score": 0.5125827193260193,
+          "rerank_score": 6.381063461303711,
+          "reranked_rank": 2
+        },
+        {
+          "id": "p26-t00700",
+          "page": 26,
+          "text": "73.1\t STEP 1—Starting with the speaker and proceeding clockwise, \neach player chooses one strategy card from the common play \narea and places it faceup in their play area.\n•\t\nIf there are one or more trade good tokens on a strategy \ncard when a player chooses it, that player gains those trade \ngoods.\n•\t\nA player cannot choose a strategy card that another player \nhas already chosen during the current strategy phase.\n•\t\nWhen playing with three or four players, each player \nwill choose a second strategy card. After the last player \nhas received their first strategy card, each player chooses \na second strategy card, starting with the speaker and \nproceeding clockwise.\n73.2\t STEP 2—The speaker places one trade good token from the \nsupply on each strategy card that was not chosen.\n•\t\nDuring a four-player game, all strategy cards will be \nchosen, and therefore no trade good tokens will be placed \non strategy",
+          "original_rank": 3,
+          "cosine_score": 0.5091949701309204,
+          "rerank_score": 2.0061638355255127,
+          "reranked_rank": 4
+        },
+        {
+          "id": "p07-t00140",
+          "page": 7,
+          "text": "“Politics” strategy card.\n2.3\t\nWhen a player draws an action card, they take the top card \nfrom the action card deck and add it to their hand of action \ncards.\n2.4\t\nEach player’s hand can have a maximum of seven action \ncards. If a player ever has more than seven action cards, that \nplayer must choose seven cards to keep and discard the rest.\n•\t\nA game effect can increase or decrease the number of cards \na player’s hand can have.\n2.5\t\nA player’s action cards remain hidden from other players until \nthose cards are played.\n2.6\t\nThe first paragraph of each action card is presented in bold \ntext and describes the timing of when that card’s ability can \nbe resolved.\n•\t\nIf an action card contains the word “Action,” a player must \nuse a component action during the action phase to resolve \nthe ability. A player cannot",
+          "original_rank": 4,
+          "cosine_score": 0.5065451264381409,
+          "rerank_score": 1.5933629274368286,
+          "reranked_rank": 7
+        },
+        {
+          "id": "p26-t00560",
+          "page": 26,
+          "text": "ability. These abilities are resolved during a strategic action.\n72.8\t Each strategy card exists in either the common play area or a \nplayer’s play area.\n•\t\nStrategy cards in the common play area are available for \nplayers to choose during the strategy phase.\n•\t\nA strategy card in a player’s play area belongs to that \nplayer until it is returned to the common play area during \nthe status phase.\nRELATED TOPICS: Construction, Diplomacy, Initiative Order, \nImperial, Leadership, Politics, Strategy Phase, Technology (Strategy \nCard), Trade, Warfare\n73\t STRATEGY PHASE\nDuring the strategy phase, each player chooses a strategy card to use \nduring the round.\nTo resolve the strategy phase, players perform the following steps:\n73.1\t STEP 1—Starting with the speaker and proceeding clockwise, \neach player chooses one strategy card from the common play \narea and places it faceup in their play area.\n•\t\nIf there are one",
+          "original_rank": 5,
+          "cosine_score": 0.49198436737060547,
+          "rerank_score": 1.5349929332733154,
+          "reranked_rank": 8
+        },
+        {
+          "id": "p26-t00420",
+          "page": 26,
+          "text": "card has a readied and \nan exhausted side.\n•\t\nThe readied side contains the strategy card’s name, initiative \nnumber, and abilities.\n•\t\nThe exhausted side contains the strategy card’s initiative \nnumber.\n72.3\t A player can only resolve the primary ability of their own \nstrategy cards.\n72.4\t A player can only resolve the secondary ability of strategy \ncards that were chosen by other players.\n72.5\t There are eight strategy cards, each of which has a name and an \ninitiative number.\n72.6\t The initiative number on a player’s strategy card determines the \ninitiative order for the action phase and status phase.\n26\n72.7\t A strategy card has both a primary ability and a secondary \nability. These abilities are resolved during a strategic action.\n72.8\t Each strategy card exists in either the common play area or a \nplayer’s play area.\n•\t\nStrategy cards in the common play area",
+          "original_rank": 6,
+          "cosine_score": 0.46176114678382874,
+          "rerank_score": 1.8591358661651611,
+          "reranked_rank": 6
+        },
+        {
+          "id": "p29-t00280",
+          "page": 29,
+          "text": "the primary ability on the “Technology” strategy \ncard, the active player can research one technology of their \nchoice. Then, they may research one additional technology of \ntheir choice by spending six resources.\n80.3\t After the active player resolves the primary ability of the \n“Technology” strategy card, each other player, beginning with the \nplayer to the left of the active player and proceeding clockwise, \nmay research one technology of their choice by spending one \ncommand token from their strategy pool and four resources.\nRELATED TOPICS: Initiative Order, Resources, Strategic Action, \nStrategy Card, Technology\n81\t TRADE (STRATEGY CARD)\nThe “Trade” strategy card allows players to gain trade goods and \nreplenish commodities. This card’s initiative value is “5.”\n81.1\t During the action phase, if the active player has the “Trade” \nstrategy card, they can perform a strategic action to resolve \nthat card’s primary",
+          "original_rank": 7,
+          "cosine_score": 0.454765260219574,
+          "rerank_score": 1.9538853168487549,
+          "reranked_rank": 5
+        },
+        {
+          "id": "p21-t00140",
+          "page": 21,
+          "text": "Then, that player places each card on \neither the top or the bottom of the deck. If they place \nboth cards on either the top or bottom, they can place \nthem in any order.\n57.3\t After the active player resolves the primary ability of the \n“Politics” strategy card, each other player, beginning with the \nplayer to the left of the active player and proceeding clockwise, \nmay spend one command token from their strategy pool to \ndraw two action cards.\nRELATED TOPICS: Action Cards, Agenda Card, Initiative Order, \nSpeaker, Strategy Card, Strategic Action\n58\t PRODUCING UNITS\nThe primary way that a player produces new units is by resolving \nthe “Production” abilities of existing units during a tactical action. \nHowever, other game effects also allow players to produce units.\n58.1\t Each unit that a player can produce has a cost value presented \non its faction sheet or technology card. To produce a unit, a",
+          "original_rank": 8,
+          "cosine_score": 0.44818115234375,
+          "rerank_score": 1.3268455266952515,
+          "reranked_rank": 9
+        },
+        {
+          "id": "p12-t00560",
+          "page": 12,
+          "text": "(STRATEGY CARD)\nThe “Construction” strategy card allows players to construct \nstructures on planets they control. This card’s initiative value is “4.”\n23.1\t During the action phase, if the active player has the \n“Construction” strategy card, they can perform a strategic \naction to resolve that card’s primary ability.\n23.2\t To resolve the primary ability on the “Construction” strategy \ncard, the active player may place either one PDS or one space \ndock on a planet they control. Then, that player may place an \nadditional PDS on a planet they control.\n•\t\nThe structures can be placed on the same planet or different \nplanets.\n•\t\nThe structures can be placed in any systems, regardless of \nwhether the player has a command token in the system or not.\n23.3\t After the active player resolves the primary ability of the \n“Construction” strategy card, each other player,",
+          "original_rank": 9,
+          "cosine_score": 0.44685041904449463,
+          "rerank_score": 1.2661464214324951,
+          "reranked_rank": 10
+        },
+        {
+          "id": "p31-t00420",
+          "page": 31,
+          "text": "Warfare” strategy card allows a player to remove a command \ntoken from the board and redistribute their command tokens \nbetween their tactic, fleet, and strategy pools. This card’s initiative \nvalue is “6.” During the action phase, if the active player has the \n“Warfare” strategy card, they can perform a strategic action to \nresolve that card’s primary ability.\nTo resolve the primary ability on the “Warfare” strategy card, the \nactive player performs the following steps:\n88.1\t STEP 1—The active player removes any one of their command \ntokens from the game board. Then, that player gains that \ncommand token by placing it in a pool of their choice on their \ncommand sheet.\n88.2\t STEP 2—The active player can redistribute their command \ntokens.\n88.3\t After the active player resolves the primary ability of the \n“Warfare”",
+          "original_rank": 10,
+          "cosine_score": 0.44234126806259155,
+          "rerank_score": 2.2634782791137695,
+          "reranked_rank": 3
+        }
+      ],
+      "baseline_context": "[Chunk p26-t00000 | PDF page 26]\n71\t STRATEGIC ACTION\nDuring the action phase, the active player may perform a strategic \naction to resolve the primary ability on their strategy card.\n71.1\t After the active player resolves the primary ability on their \nstrategy card, each other player, beginning with the player to \nthe left of the active player and proceeding clockwise, may \nresolve that strategy card’s secondary ability.\n•\t\nPlayers do not have to resolve the secondary abilities of the \nactive player’s strategy card.\n71.2\t After each player has had an opportunity to resolve a strategy \ncard’s secondary ability, the active player exhausts their \nstrategy card so that it is facedown—this indicates that they \ncannot use this card again this round and is a reminder that they \ncan now pass during one of their later turns.\n•\t\nDuring three- and four-player games, a player must resolve \nthe strategic action on each of their chosen strategy cards \nbefore they can\n\n[Chunk p07-t00560 | PDF page 7]\nthey have no further turns and cannot \nperform additional actions during that action phase.\n•\t\nDuring a turn that a player passes, they can resolve \ntransactions and “at the start of your turn” abilities.\n•\t\nA player that has passed can still resolve the secondary \nability of other players’ strategy cards.\n•\t\nIt is possible for a player to perform multiple, consecutive \nactions during an action phase if all other players have \npassed during that action phase.\n3.4\t\nA player cannot pass until they have performed a strategic \naction.\n•\t\nDuring a three-player or four-player game, a player cannot \npass until they have exhausted both of their strategy cards.\n3.5\t\nAfter all players have passed, play proceeds to the status phase.\nRELATED TOPICS: Component Action, Game Round, Status Phase, \nStrategic Action, Tactical Action\n4\t ACTIVE PLAYER\nThe active player is the player taking a turn during the action phase.\n4.1\n\n[Chunk p26-t00700 | PDF page 26]\n73.1\t STEP 1—Starting with the speaker and proceeding clockwise, \neach player chooses one strategy card from the common play \narea and places it faceup in their play area.\n•\t\nIf there are one or more trade good tokens on a strategy \ncard when a player chooses it, that player gains those trade \ngoods.\n•\t\nA player cannot choose a strategy card that another player \nhas already chosen during the current strategy phase.\n•\t\nWhen playing with three or four players, each player \nwill choose a second strategy card. After the last player \nhas received their first strategy card, each player chooses \na second strategy card, starting with the speaker and \nproceeding clockwise.\n73.2\t STEP 2—The speaker places one trade good token from the \nsupply on each strategy card that was not chosen.\n•\t\nDuring a four-player game, all strategy cards will be \nchosen, and therefore no trade good tokens will be placed \non strategy",
+      "reranked_context": "[Chunk p26-t00000 | PDF page 26]\n71\t STRATEGIC ACTION\nDuring the action phase, the active player may perform a strategic \naction to resolve the primary ability on their strategy card.\n71.1\t After the active player resolves the primary ability on their \nstrategy card, each other player, beginning with the player to \nthe left of the active player and proceeding clockwise, may \nresolve that strategy card’s secondary ability.\n•\t\nPlayers do not have to resolve the secondary abilities of the \nactive player’s strategy card.\n71.2\t After each player has had an opportunity to resolve a strategy \ncard’s secondary ability, the active player exhausts their \nstrategy card so that it is facedown—this indicates that they \ncannot use this card again this round and is a reminder that they \ncan now pass during one of their later turns.\n•\t\nDuring three- and four-player games, a player must resolve \nthe strategic action on each of their chosen strategy cards \nbefore they can\n\n[Chunk p07-t00560 | PDF page 7]\nthey have no further turns and cannot \nperform additional actions during that action phase.\n•\t\nDuring a turn that a player passes, they can resolve \ntransactions and “at the start of your turn” abilities.\n•\t\nA player that has passed can still resolve the secondary \nability of other players’ strategy cards.\n•\t\nIt is possible for a player to perform multiple, consecutive \nactions during an action phase if all other players have \npassed during that action phase.\n3.4\t\nA player cannot pass until they have performed a strategic \naction.\n•\t\nDuring a three-player or four-player game, a player cannot \npass until they have exhausted both of their strategy cards.\n3.5\t\nAfter all players have passed, play proceeds to the status phase.\nRELATED TOPICS: Component Action, Game Round, Status Phase, \nStrategic Action, Tactical Action\n4\t ACTIVE PLAYER\nThe active player is the player taking a turn during the action phase.\n4.1\n\n[Chunk p31-t00420 | PDF page 31]\nWarfare” strategy card allows a player to remove a command \ntoken from the board and redistribute their command tokens \nbetween their tactic, fleet, and strategy pools. This card’s initiative \nvalue is “6.” During the action phase, if the active player has the \n“Warfare” strategy card, they can perform a strategic action to \nresolve that card’s primary ability.\nTo resolve the primary ability on the “Warfare” strategy card, the \nactive player performs the following steps:\n88.1\t STEP 1—The active player removes any one of their command \ntokens from the game board. Then, that player gains that \ncommand token by placing it in a pool of their choice on their \ncommand sheet.\n88.2\t STEP 2—The active player can redistribute their command \ntokens.\n88.3\t After the active player resolves the primary ability of the \n“Warfare”",
+      "answers": {
+        "baseline": "No, a player cannot pass before using their strategy card. Rule 3.4 states that \"A player cannot pass until they have performed a strategic action\" (PDF page 7). Furthermore, rule 71.2 indicates that exhausting a strategy card serves as a reminder that the player \"can now pass during one of their later turns\" (PDF page 26), and in three- or four-player games, a player must resolve the strategic action on each of their chosen strategy cards before they can pass (PDF pages 7, 26).",
+        "reranked": "Based on the provided context, a player cannot pass before using their strategy card. Specifically, rule 3.4 states that \"A player cannot pass until they have performed a strategic action\" (PDF page 7). Furthermore, the rules state that when a player exhausts their strategy card (after resolving its primary ability), it serves as \"a reminder that they can now pass during one of their later turns\" (PDF page 26). \n\nCite supporting PDF pages: Page 7 and Page 26."
+      },
+      "answer_errors": {
+        "baseline": null,
+        "reranked": null
+      },
+      "latency_ms": {
+        "query_embedding": 17.364487999657285,
+        "vector_search": 0.1693379999778699,
+        "reranking": 258.6822580014996,
+        "baseline_generation": 917.2874960004265,
+        "reranked_generation": 1287.1153409996623
+      }
+    },
+    {
+      "question": "Can a blockaded space dock still produce ground forces but not ships?",
+      "evidence": "A player cannot use a blockaded unit to produce ships",
+      "candidates": [
+        {
+          "id": "p25-t00000",
+          "page": 25,
+          "text": "•\t\nIf the winner of the combat has fighters or ground forces \nin the space area of the active system and those units exceed \nthe capacity of that player’s ships in that system, that player \nmust choose and remove any excess units.\nRELATED TOPICS: Capacity, Fleet Pool, Opponent, Sustain \nDamage, Tactical Action, Transport\n68\t SPACE DOCK\nA space dock is a structure that allows players to produce units.\n68.1\t Each space dock has a “Production” ability that indicates the \nnumber of units it can produce.\n68.2\t The primary way in which players acquire space docks is \nby resolving either the primary or secondary abilities of the \n“Construction” strategy card.\n68.3\t Space docks are placed on planets. Each planet can have a \nmaximum of one space dock.\n68.4\t If a player’s space dock is ever on a planet that does not contain \nany of their ground forces and contains a unit that",
+          "original_rank": 1,
+          "cosine_score": 0.4666275084018707,
+          "rerank_score": 2.410411834716797,
+          "reranked_rank": 4
+        },
+        {
+          "id": "p22-t00000",
+          "page": 22,
+          "text": "59.3\t When a player produces ground forces, that player must \nplace those unit on planets that contain a unit that used its \n“Production” ability.\n59.4\t If a player uses the “Production” ability of a unit in a space area \nof a system to produce ground forces, those ground forces may \neither be placed on a planet the player controls in that system or \nin the space area of that system.\n•\t\nIf a player places a ground force in the space area of a \nsystem, it cannot exceed that player’s capacity in that system.\nRELATED TOPICS: Blockaded, Producing Units, Space Dock\n60\t PROMISSORY NOTES\nEach player begins the game with one unique \nand four generic promissory note cards that \ncan be given to other players.\nTRADE\nAGREEMENT\nWhen the green player\nreplenishes commodities:\nThe green player gives you all \nof their commodities.\n60.1\t Each promissory note",
+          "original_rank": 2,
+          "cosine_score": 0.4185388386249542,
+          "rerank_score": 3.303804636001587,
+          "reranked_rank": 3
+        },
+        {
+          "id": "p21-t00560",
+          "page": 21,
+          "text": "and where that player can place those units.\n58.5\t A player is limited by the number of units in their \nreinforcements.\n•\t\nIf a player cannot produce a unit because it is not in their \nreinforcements, that player can remove a unit from any \nsystem that does not contain one of their command tokens \nand place that unit in their reinforcements. Then, that player \ncan produce that unit. A player can remove any number of \ntheir units in this way; however, any units that are removed \nmust be produced immediately.\n•\t\nWhen producing a fighter or infantry unit, a player can use \na fighter or infantry token, as appropriate, from the supply \ninstead of a plastic piece.\n58.6\t A player cannot produce ships in a system that contains other \nplayers’ ships.\n•\t\nGround forces can still be produced.\nRELATED TOPICS: Blockaded, Cost, Fighter Tokens, Infantry \nTokens, Production, Space Dock,",
+          "original_rank": 3,
+          "cosine_score": 0.4120301604270935,
+          "rerank_score": 4.092001438140869,
+          "reranked_rank": 2
+        },
+        {
+          "id": "p30-t00420",
+          "page": 30,
+          "text": "move with the ship and remain in the space area of a system.\n30\n84.3\t Fighters and ground forces cannot be picked up from a system \nthat contains one of their faction’s command tokens other than \nthe active system.\n84.4\t A player can land ground forces on a planet in a system during \nthe “Invasion” step of a tactical action.\nRELATED TOPICS: Capacity, Invasion, Movement, Tactical Action\n85\t UNITS\nA unit is represented by a plastic figure.\n85.1\t There are three types of units: ships, ground forces, and \nstructures.\n85.2\t Each color of plastic comes with the following units:\n•\t\n3 Space Docks\n•\t\n12 Infantry\n•\t\n6 PDS units\n•\t\n10 Fighters\n•\t\n8 Destroyers\n•\t\n4 Carriers\n•\t\n8 Cruisers\n•\t\n5 Dreadnoughts\n•\t\n2 War Suns\n•\t\n1 Flagship\n85.3\t Units exist either on the game board or in a player’s \nreinforcements.",
+          "original_rank": 4,
+          "cosine_score": 0.37842822074890137,
+          "rerank_score": -0.20984238386154175,
+          "reranked_rank": 5
+        },
+        {
+          "id": "p30-t00280",
+          "page": 30,
+          "text": "Notes, Trade Goods\n84\t TRANSPORT\nWhen a ship moves, it may transport any combination of fighters \nand ground forces, but the number of units it transports cannot \nexceed that ship’s capacity value.\n84.1\t The ship can pick up and transport fighters and ground forces \nwhen it moves. During a tactical action, it can pick up and \ntransport units from the active system, the system it started its \nmovement in, and each system it moves through.\n•\t\nThese transported units remain with the transporting ship \nuntil it is finished moving.\n•\t\nUnits being transported by a ship that is removed from the \nboard by a gravity rift are also removed from the board.\n84.2\t Any fighters and ground forces that a ship transports must \nmove with the ship and remain in the space area of a system.\n30\n84.3\t Fighters and ground forces cannot be picked up from a system \nthat contains one of their faction’s command tokens",
+          "original_rank": 5,
+          "cosine_score": 0.37499016523361206,
+          "rerank_score": -2.173034191131592,
+          "reranked_rank": 6
+        },
+        {
+          "id": "p17-t00420",
+          "page": 17,
+          "text": "ground force unit on that planet.\n•\t\nThe planet may contain another player’s ground forces.\n•\t\nIf the active player does not wish to commit ground forces, \nthat player proceeds to the “Production” step of the tactical \naction.\n44.3\t STEP 3—SPACE CANNON DEFENSE: If the active player \ncommits any ground forces to a planet that contains units \nthat have the “Space Cannon” ability, those “Space Cannon” \nabilities can be used against the committed ground forces.\n•\t\nIf the active player committed ground forces to more than \none planet that contained units with a “Space Cannon” \nability, the active player chooses the order in which those \n“Space Cannon” abilities are resolved.\n44.4\t STEP 4—GROUND COMBAT: If the active player has ground \nforces on a planet in the active system that contains another \nplayer’s ground forces, those players resolve a ground combat \non that planet.\n•\t\nIf players",
+          "original_rank": 6,
+          "cosine_score": 0.3554709851741791,
+          "rerank_score": -4.243369102478027,
+          "reranked_rank": 10
+        },
+        {
+          "id": "p24-t00700",
+          "page": 24,
+          "text": "not occur.\n•\t\nTo retreat, a player takes all of their ships in the combat and \nmoves them to a single system that is adjacent to the active \nsystem. That player’s fighters and ground forces in the \nspace area of the active system that are unable to move or \nbe transported are destroyed.\n•\t\nThe system that a player’s units retreat to must contain one \nor more of that player’s units, a planet they control, or both. \nAdditionally, the system cannot contain ships controlled by \nanother player.\n•\t\nIf any of a player’s units successfully retreat and are moved \ninto an adjacent system, that player must place a command \ntoken from their reinforcements in the system to which \ntheir units retreated. If that system already contains one \nof their command tokens, that player does not place an \nadditional token there. If the player has no command tokens \nin their reinforcements, that player must use one from",
+          "original_rank": 7,
+          "cosine_score": 0.35007423162460327,
+          "rerank_score": -3.006924867630005,
+          "reranked_rank": 7
+        },
+        {
+          "id": "p10-t00140",
+          "page": 10,
+          "text": "13\t ATTACKER\nDuring combat, the active player is the attacker.\nRELATED TOPICS: Defender, Invasion, Space Combat\n14\t BLOCKADED\nA player’s unit with “Production” is blockaded if it is in a system that \ndoes not contain any of their ships and contains other players’ ships.\n14.1\t A player cannot use a blockaded unit to produce ships; that \nplayer can still use a blockaded unit to produce ground forces.\nRELATED TOPICS: Producing Units, Ships\n15\t BOMBARDMENT (UNIT ABILITY)\nA unit with the “Bombardment” ability may be able to destroy \nanother player’s ground forces during an invasion. During the \n“Bombardment” step, players perform the following steps:\n15.1\t STEP 1— The active player chooses which planet each of their \nunits that has a “Bombardment” ability will bombard. Then, \nthat player rolls dice for each of those units; this is called a \nbombardment roll",
+          "original_rank": 8,
+          "cosine_score": 0.3422356843948364,
+          "rerank_score": 5.309207916259766,
+          "reranked_rank": 1
+        },
+        {
+          "id": "p18-t00560",
+          "page": 18,
+          "text": ".\n•\t\nThe ship must move along a path of adjacent systems, and \nthe number of systems the ship enters cannot exceed its \nmove value.\n49.5\t When a ship with a capacity value moves or is moved, it may \ntransport ground forces and fighters.\n49.6\t The active player declares which of their ships are moving \nbefore any ships move. Those ships arrive in the active system \nsimultaneously.\n49.7\t STEP 2—SPACE CANNON OFFENSE: After the “Move \nShips” step, players can use the “Space Cannon” abilities of \ntheir units in the active system.\n49.8\t ABILITY MOVEMENT\n49.9\t If an ability moves a unit outside of the “Movement” step of a \ntactical action, players follow the rules specified by that ability; \nneither a unit’s move value nor the rules specified above apply.\nRELATED TOPICS: Action Phase, Active System, Capacity, Space \nCannon, Tactical Action, Transport\n50",
+          "original_rank": 9,
+          "cosine_score": 0.325508177280426,
+          "rerank_score": -3.891380786895752,
+          "reranked_rank": 8
+        },
+        {
+          "id": "p27-t00700",
+          "page": 27,
+          "text": "that system. That system is \nthe active system.\n•\t\nOther players’ command tokens do not prevent a player \nfrom activating a system.\n78.2\t STEP 2—MOVEMENT: The active player may move any \nnumber of ships that have a sufficient move value from any \nnumber of systems that do not contain one of their command \ntokens into the active system, following the rules for \nmovement.\n•\t\nShips that have capacity values can transport ground forces \nand fighters when moving.\n•\t\nThe player may choose to not move any ships.\n•\t\nAfter the “Move Ships” step, all players can use the “Space \nCannon” abilities of their units in the active system.\n78.3\t STEP 3—SPACE COMBAT: If two players have ships in the \nactive system, those players must resolve a space combat.\n•\t\nIf the active player is the only player with ships in the \nsystem, they skip this step.\n78.4",
+          "original_rank": 10,
+          "cosine_score": 0.3232003450393677,
+          "rerank_score": -3.9704508781433105,
+          "reranked_rank": 9
+        }
+      ],
+      "baseline_context": "[Chunk p25-t00000 | PDF page 25]\n•\t\nIf the winner of the combat has fighters or ground forces \nin the space area of the active system and those units exceed \nthe capacity of that player’s ships in that system, that player \nmust choose and remove any excess units.\nRELATED TOPICS: Capacity, Fleet Pool, Opponent, Sustain \nDamage, Tactical Action, Transport\n68\t SPACE DOCK\nA space dock is a structure that allows players to produce units.\n68.1\t Each space dock has a “Production” ability that indicates the \nnumber of units it can produce.\n68.2\t The primary way in which players acquire space docks is \nby resolving either the primary or secondary abilities of the \n“Construction” strategy card.\n68.3\t Space docks are placed on planets. Each planet can have a \nmaximum of one space dock.\n68.4\t If a player’s space dock is ever on a planet that does not contain \nany of their ground forces and contains a unit that\n\n[Chunk p22-t00000 | PDF page 22]\n59.3\t When a player produces ground forces, that player must \nplace those unit on planets that contain a unit that used its \n“Production” ability.\n59.4\t If a player uses the “Production” ability of a unit in a space area \nof a system to produce ground forces, those ground forces may \neither be placed on a planet the player controls in that system or \nin the space area of that system.\n•\t\nIf a player places a ground force in the space area of a \nsystem, it cannot exceed that player’s capacity in that system.\nRELATED TOPICS: Blockaded, Producing Units, Space Dock\n60\t PROMISSORY NOTES\nEach player begins the game with one unique \nand four generic promissory note cards that \ncan be given to other players.\nTRADE\nAGREEMENT\nWhen the green player\nreplenishes commodities:\nThe green player gives you all \nof their commodities.\n60.1\t Each promissory note\n\n[Chunk p21-t00560 | PDF page 21]\nand where that player can place those units.\n58.5\t A player is limited by the number of units in their \nreinforcements.\n•\t\nIf a player cannot produce a unit because it is not in their \nreinforcements, that player can remove a unit from any \nsystem that does not contain one of their command tokens \nand place that unit in their reinforcements. Then, that player \ncan produce that unit. A player can remove any number of \ntheir units in this way; however, any units that are removed \nmust be produced immediately.\n•\t\nWhen producing a fighter or infantry unit, a player can use \na fighter or infantry token, as appropriate, from the supply \ninstead of a plastic piece.\n58.6\t A player cannot produce ships in a system that contains other \nplayers’ ships.\n•\t\nGround forces can still be produced.\nRELATED TOPICS: Blockaded, Cost, Fighter Tokens, Infantry \nTokens, Production, Space Dock,",
+      "reranked_context": "[Chunk p10-t00140 | PDF page 10]\n13\t ATTACKER\nDuring combat, the active player is the attacker.\nRELATED TOPICS: Defender, Invasion, Space Combat\n14\t BLOCKADED\nA player’s unit with “Production” is blockaded if it is in a system that \ndoes not contain any of their ships and contains other players’ ships.\n14.1\t A player cannot use a blockaded unit to produce ships; that \nplayer can still use a blockaded unit to produce ground forces.\nRELATED TOPICS: Producing Units, Ships\n15\t BOMBARDMENT (UNIT ABILITY)\nA unit with the “Bombardment” ability may be able to destroy \nanother player’s ground forces during an invasion. During the \n“Bombardment” step, players perform the following steps:\n15.1\t STEP 1— The active player chooses which planet each of their \nunits that has a “Bombardment” ability will bombard. Then, \nthat player rolls dice for each of those units; this is called a \nbombardment roll\n\n[Chunk p21-t00560 | PDF page 21]\nand where that player can place those units.\n58.5\t A player is limited by the number of units in their \nreinforcements.\n•\t\nIf a player cannot produce a unit because it is not in their \nreinforcements, that player can remove a unit from any \nsystem that does not contain one of their command tokens \nand place that unit in their reinforcements. Then, that player \ncan produce that unit. A player can remove any number of \ntheir units in this way; however, any units that are removed \nmust be produced immediately.\n•\t\nWhen producing a fighter or infantry unit, a player can use \na fighter or infantry token, as appropriate, from the supply \ninstead of a plastic piece.\n58.6\t A player cannot produce ships in a system that contains other \nplayers’ ships.\n•\t\nGround forces can still be produced.\nRELATED TOPICS: Blockaded, Cost, Fighter Tokens, Infantry \nTokens, Production, Space Dock,\n\n[Chunk p22-t00000 | PDF page 22]\n59.3\t When a player produces ground forces, that player must \nplace those unit on planets that contain a unit that used its \n“Production” ability.\n59.4\t If a player uses the “Production” ability of a unit in a space area \nof a system to produce ground forces, those ground forces may \neither be placed on a planet the player controls in that system or \nin the space area of that system.\n•\t\nIf a player places a ground force in the space area of a \nsystem, it cannot exceed that player’s capacity in that system.\nRELATED TOPICS: Blockaded, Producing Units, Space Dock\n60\t PROMISSORY NOTES\nEach player begins the game with one unique \nand four generic promissory note cards that \ncan be given to other players.\nTRADE\nAGREEMENT\nWhen the green player\nreplenishes commodities:\nThe green player gives you all \nof their commodities.\n60.1\t Each promissory note",
+      "answers": {
+        "baseline": "Yes, ground forces can still be produced in a system where a player cannot produce ships (such as a system containing other players' ships, which relates to a blockaded space dock) (PDF page 21).",
+        "reranked": "Yes. A blockaded unit cannot be used to produce ships, but that player can still use a blockaded unit to produce ground forces (PDF page 10, 14.1)."
+      },
+      "answer_errors": {
+        "baseline": null,
+        "reranked": null
+      },
+      "latency_ms": {
+        "query_embedding": 15.665892000470194,
+        "vector_search": 0.16144300025189295,
+        "reranking": 267.3522490003961,
+        "baseline_generation": 849.7841009993863,
+        "reranked_generation": 1290.863521000574
+      }
+    },
+    {
+      "question": "Can a unit without a printed cost be produced by an ability?",
+      "evidence": "If a unit does not have a cost, it cannot be produced",
+      "candidates": [
+        {
+          "id": "p21-t00280",
+          "page": 21,
+          "text": ", other game effects also allow players to produce units.\n58.1\t Each unit that a player can produce has a cost value presented \non its faction sheet or technology card. To produce a unit, a \nplayer must spend a number of resources equal to or greater \nthan the cost value of the unit they are producing.\n•\t\nSpent resources must come from planets or trade goods that \nare controlled by the player who is producing the units.\n•\t\nAny resources spent in excess of a unit’s cost are lost.\n•\t\nIf a player is producing multiple units at a time, that player \ncan add the cost of each unit they are producing to create a \ntotal cost before they spend any resources.\n58.2\t If the cost is accompanied by two icons—typically for \nfighters and infantry—a player produces two of that unit for \nthat cost.\n•\t\nEach of the two units counts toward the total number of \nunits a player can produce",
+          "original_rank": 1,
+          "cosine_score": 0.4719061851501465,
+          "rerank_score": -2.4599642753601074,
+          "reranked_rank": 8
+        },
+        {
+          "id": "p13-t00280",
+          "page": 13,
+          "text": ")\nCost is an attribute of some units that is presented on faction sheets \nand unit upgrade technology cards. A unit’s cost determines the \nnumber of resources a player must spend to produce that unit.\n25.1\t To produce a unit, a player must spend a number of resources \nequal to or greater than the cost of the unit they are producing.\n25.2\t If the cost is accompanied by two icons—typically for \nfighters and ground forces—a player produces two of that \nunit for that cost.\n25.3\t If a unit does not have a cost, it cannot be produced.\n•\t\nStructures do not have costs and are usually placed by \nresolving the “Construction” strategy card.\nRELATED TOPICS: Producing Units, Resources\n26\t CUSTODIANS TOKEN\nThe custodians token begins each game on \nMecatol Rex. The token represents the caretakers \nthat safeguard the seat of the empire until such \ntime as",
+          "original_rank": 2,
+          "cosine_score": 0.45569321513175964,
+          "rerank_score": 0.12587539851665497,
+          "reranked_rank": 6
+        },
+        {
+          "id": "p21-t00840",
+          "page": 21,
+          "text": "active system \nthat have the “Production” ability, that player can produce \na number of units up to the combined total of their units’ \nproduction values in that system.\n•\t\nWhen producing fighters or infantry, each individual unit \ncounts toward the producing unit’s production limit.\n•\t\nA player can choose to produce one fighter or infantry \ninstead of two, but must still pay the entire cost.\n•\t\n“Production” value from Arborec space docks cannot be \nused to produce infantry, even if the Arborec player controls \nother units that have “Production” in the same system.\n59.2\t When a player produces ships by using “Production,” that \nplayer must place them in the active system.\n21",
+          "original_rank": 3,
+          "cosine_score": 0.43657708168029785,
+          "rerank_score": 0.4316115975379944,
+          "reranked_rank": 4
+        },
+        {
+          "id": "p37-t00420",
+          "page": 37,
+          "text": "only be used to produce units \nwhen it is in a system at the moment it is activated.\nQ: Can the “Production” abilities of multiple Arborec “Letani \nWarriors” in a system be combined to allow the production of two \ninfantry for one resource?\nA: Yes. Production value is totaled when the “Production” ability of \nunits in a system is used.\nTHE NEKRO VIRUS\nQ: Can the Nekro Virus use the “Valefar Assimilator” technologies \non printed faction units, such as the Embers of Muaat’s Prototype \nWar Sun I?\nA: No, printed faction units are not technologies, and thus are \nineligible targets for “Valefar Assimilator.”\nQ: Do infantry involved in a space combat due to the effects of “The \nAlastor” flagship count as ships for the purpose of card effects and \nfleet supply?\nA:",
+          "original_rank": 4,
+          "cosine_score": 0.42781776189804077,
+          "rerank_score": 3.546661376953125,
+          "reranked_rank": 1
+        },
+        {
+          "id": "p21-t00700",
+          "page": 21,
+          "text": "ships in a system that contains other \nplayers’ ships.\n•\t\nGround forces can still be produced.\nRELATED TOPICS: Blockaded, Cost, Fighter Tokens, Infantry \nTokens, Production, Space Dock, Tactical Action\n59\t PRODUCTION (UNIT ABILITY)\nDuring the “Production” step of a tactical action, the active player \ncan resolve the “Production” ability of each of their units that are in \nthe active system to produce units.\n59.1\t A unit’s “Production” ability, which is presented on a faction \nsheet or unit upgrade technology card, is always followed by a \nvalue. This value is the maximum number of units that this unit \ncan produce.\n•\t\nIf the active player has multiple units in the active system \nthat have the “Production” ability, that player can produce \na number of units up to the combined total of their units’ \nproduction values in that system.\n•\t\nWhen producing fighters or infantry,",
+          "original_rank": 5,
+          "cosine_score": 0.41818225383758545,
+          "rerank_score": 0.9275357127189636,
+          "reranked_rank": 3
+        },
+        {
+          "id": "p21-t00420",
+          "page": 21,
+          "text": "is accompanied by two icons—typically for \nfighters and infantry—a player produces two of that unit for \nthat cost.\n•\t\nEach of the two units counts toward the total number of \nunits a player can produce.\n•\t\nA player can choose to produce only one unit; however, \nthey must still pay the entire cost.\n58.3\t When a player produces a unit through the use of their units’ \n“Production” abilities during a tactical action, that player \nfollows the rules of the “Production” ability to determine where \nin the active system the units can be placed.\n58.4\t When a player produces a unit through an ability outside of the \ntactical action, that ability will state how many units that player \ncan produce and where that player can place those units.\n58.5\t A player is limited by the number of units in their \nreinforcements.\n•\t\nIf a player cannot produce a unit because it is not in their \nreinforcements",
+          "original_rank": 6,
+          "cosine_score": 0.40600475668907166,
+          "rerank_score": 1.2965102195739746,
+          "reranked_rank": 2
+        },
+        {
+          "id": "p35-t00700",
+          "page": 35,
+          "text": "A: No. In both situations, the “Space Cannon” ability did not \ndestroy the last ship in the system, so the objective is not fulfilled.\nQ: If a player has multiple planets with PDS that are being invaded \nin a single system, does the “Plasma Scoring” technology add one \ndie to each planet’s space cannon roll or for only one planet’s space \ncannon roll?\nA: The “Plasma Scoring” technology adds one die for each space \nplanet’s “Space Cannon” roll.\nPRODUCTION\nQ: When an ability other than “Production” allows you to produce \none or more units, do you have to pay for the units produced?\nA: Yes, a unit that is produced must always be paid for.\nQ: When producing a unit with an ability other than “Production,” \ndoes the price reduction from the “Sarween Tools” technology apply?\nA:",
+          "original_rank": 7,
+          "cosine_score": 0.4058443009853363,
+          "rerank_score": 0.18937481939792633,
+          "reranked_rank": 5
+        },
+        {
+          "id": "p21-t00560",
+          "page": 21,
+          "text": "and where that player can place those units.\n58.5\t A player is limited by the number of units in their \nreinforcements.\n•\t\nIf a player cannot produce a unit because it is not in their \nreinforcements, that player can remove a unit from any \nsystem that does not contain one of their command tokens \nand place that unit in their reinforcements. Then, that player \ncan produce that unit. A player can remove any number of \ntheir units in this way; however, any units that are removed \nmust be produced immediately.\n•\t\nWhen producing a fighter or infantry unit, a player can use \na fighter or infantry token, as appropriate, from the supply \ninstead of a plastic piece.\n58.6\t A player cannot produce ships in a system that contains other \nplayers’ ships.\n•\t\nGround forces can still be produced.\nRELATED TOPICS: Blockaded, Cost, Fighter Tokens, Infantry \nTokens, Production, Space Dock,",
+          "original_rank": 8,
+          "cosine_score": 0.35010969638824463,
+          "rerank_score": -1.5751105546951294,
+          "reranked_rank": 7
+        },
+        {
+          "id": "p06-t00280",
+          "page": 6,
+          "text": "the player cannot resolve all of its effects, that \nplayer is allowed to resolve as many as they can.\n1.8\t COSTS\n1.9\t\nSome abilities have a cost that is followed by an effect. The \ncost of an ability is separated from the effect by the word “to” \nor by a semicolon. A player cannot resolve the effect of such an \nability if they cannot resolve that ability’s cost.\n1.10\t Some examples of an ability’s cost include spending resources, \nspending trade goods, spending command tokens, exhausting \ncards, and activating specific systems.\n1.11\t TIMING\n1.12\t If the timing of an ability uses the word “before” or “after,” the \nability’s effect occurs immediately before or after the described \ntiming event, respectively.\n•\t\nFor example, if an ability is resolved “after a ship is \ndestroyed,” the ability must be resolved",
+          "original_rank": 9,
+          "cosine_score": 0.31844282150268555,
+          "rerank_score": -3.6390151977539062,
+          "reranked_rank": 9
+        },
+        {
+          "id": "p30-t00840",
+          "page": 30,
+          "text": "of that player’s \nunits that correspond to that upgrade card is treated as having \nthe attributes and abilities printed on that upgrade card. Any \nprevious attributes of that unit, such as the one printed on that \nplayer’s faction sheet, are ignored.\nRELATED TOPICS: Technology",
+          "original_rank": 10,
+          "cosine_score": 0.30419331789016724,
+          "rerank_score": -5.956519603729248,
+          "reranked_rank": 10
+        }
+      ],
+      "baseline_context": "[Chunk p21-t00280 | PDF page 21]\n, other game effects also allow players to produce units.\n58.1\t Each unit that a player can produce has a cost value presented \non its faction sheet or technology card. To produce a unit, a \nplayer must spend a number of resources equal to or greater \nthan the cost value of the unit they are producing.\n•\t\nSpent resources must come from planets or trade goods that \nare controlled by the player who is producing the units.\n•\t\nAny resources spent in excess of a unit’s cost are lost.\n•\t\nIf a player is producing multiple units at a time, that player \ncan add the cost of each unit they are producing to create a \ntotal cost before they spend any resources.\n58.2\t If the cost is accompanied by two icons—typically for \nfighters and infantry—a player produces two of that unit for \nthat cost.\n•\t\nEach of the two units counts toward the total number of \nunits a player can produce\n\n[Chunk p13-t00280 | PDF page 13]\n)\nCost is an attribute of some units that is presented on faction sheets \nand unit upgrade technology cards. A unit’s cost determines the \nnumber of resources a player must spend to produce that unit.\n25.1\t To produce a unit, a player must spend a number of resources \nequal to or greater than the cost of the unit they are producing.\n25.2\t If the cost is accompanied by two icons—typically for \nfighters and ground forces—a player produces two of that \nunit for that cost.\n25.3\t If a unit does not have a cost, it cannot be produced.\n•\t\nStructures do not have costs and are usually placed by \nresolving the “Construction” strategy card.\nRELATED TOPICS: Producing Units, Resources\n26\t CUSTODIANS TOKEN\nThe custodians token begins each game on \nMecatol Rex. The token represents the caretakers \nthat safeguard the seat of the empire until such \ntime as\n\n[Chunk p21-t00840 | PDF page 21]\nactive system \nthat have the “Production” ability, that player can produce \na number of units up to the combined total of their units’ \nproduction values in that system.\n•\t\nWhen producing fighters or infantry, each individual unit \ncounts toward the producing unit’s production limit.\n•\t\nA player can choose to produce one fighter or infantry \ninstead of two, but must still pay the entire cost.\n•\t\n“Production” value from Arborec space docks cannot be \nused to produce infantry, even if the Arborec player controls \nother units that have “Production” in the same system.\n59.2\t When a player produces ships by using “Production,” that \nplayer must place them in the active system.\n21",
+      "reranked_context": "[Chunk p37-t00420 | PDF page 37]\nonly be used to produce units \nwhen it is in a system at the moment it is activated.\nQ: Can the “Production” abilities of multiple Arborec “Letani \nWarriors” in a system be combined to allow the production of two \ninfantry for one resource?\nA: Yes. Production value is totaled when the “Production” ability of \nunits in a system is used.\nTHE NEKRO VIRUS\nQ: Can the Nekro Virus use the “Valefar Assimilator” technologies \non printed faction units, such as the Embers of Muaat’s Prototype \nWar Sun I?\nA: No, printed faction units are not technologies, and thus are \nineligible targets for “Valefar Assimilator.”\nQ: Do infantry involved in a space combat due to the effects of “The \nAlastor” flagship count as ships for the purpose of card effects and \nfleet supply?\nA:\n\n[Chunk p21-t00420 | PDF page 21]\nis accompanied by two icons—typically for \nfighters and infantry—a player produces two of that unit for \nthat cost.\n•\t\nEach of the two units counts toward the total number of \nunits a player can produce.\n•\t\nA player can choose to produce only one unit; however, \nthey must still pay the entire cost.\n58.3\t When a player produces a unit through the use of their units’ \n“Production” abilities during a tactical action, that player \nfollows the rules of the “Production” ability to determine where \nin the active system the units can be placed.\n58.4\t When a player produces a unit through an ability outside of the \ntactical action, that ability will state how many units that player \ncan produce and where that player can place those units.\n58.5\t A player is limited by the number of units in their \nreinforcements.\n•\t\nIf a player cannot produce a unit because it is not in their \nreinforcements\n\n[Chunk p21-t00700 | PDF page 21]\nships in a system that contains other \nplayers’ ships.\n•\t\nGround forces can still be produced.\nRELATED TOPICS: Blockaded, Cost, Fighter Tokens, Infantry \nTokens, Production, Space Dock, Tactical Action\n59\t PRODUCTION (UNIT ABILITY)\nDuring the “Production” step of a tactical action, the active player \ncan resolve the “Production” ability of each of their units that are in \nthe active system to produce units.\n59.1\t A unit’s “Production” ability, which is presented on a faction \nsheet or unit upgrade technology card, is always followed by a \nvalue. This value is the maximum number of units that this unit \ncan produce.\n•\t\nIf the active player has multiple units in the active system \nthat have the “Production” ability, that player can produce \na number of units up to the combined total of their units’ \nproduction values in that system.\n•\t\nWhen producing fighters or infantry,",
+      "answers": {
+        "baseline": "Based on the provided context, if a unit does not have a cost, it cannot be produced (PDF page 13, section 25.3). Therefore, a unit without a printed cost cannot be produced, even by an ability. \n\n(PDF page 13)",
+        "reranked": "Based on the provided context, there is no mention or information regarding whether a unit without a printed cost can be produced by an ability. Therefore, you cannot determine it from the supplied context."
+      },
+      "answer_errors": {
+        "baseline": null,
+        "reranked": null
+      },
+      "latency_ms": {
+        "query_embedding": 15.459835000001476,
+        "vector_search": 0.11680900024657603,
+        "reranking": 272.20408900029724,
+        "baseline_generation": 730.215395000414,
+        "reranked_generation": 878.0220110002119
+      }
+    }
+  ],
+  "latency_comparison": [
+    {
+      "question": "Can trade goods be spent to cast votes during the agenda phase?",
+      "query_embedding": 10.402179999800865,
+      "vector_search": 0.10372500037192367,
+      "reranking": 200.3753909993975,
+      "baseline_generation": 1228.511997998794,
+      "reranked_generation": 783.5158120014967,
+      "baseline_total_ms": 1239.0179029989667,
+      "reranked_total_ms": 994.397108001067
+    },
+    {
+      "question": "May a player spend commodities directly, without trading them first?",
+      "query_embedding": 14.345765999678406,
+      "vector_search": 0.13183699957153294,
+      "reranking": 264.8388849993353,
+      "baseline_generation": 672.4518070004706,
+      "reranked_generation": 778.6029279996001,
+      "baseline_total_ms": 686.9294099997205,
+      "reranked_total_ms": 1057.9194159981853
+    },
+    {
+      "question": "Can ships move through an asteroid field if they do not stop there?",
+      "query_embedding": 15.429207998749916,
+      "vector_search": 0.14861800082144327,
+      "reranking": 275.9080460000405,
+      "baseline_generation": 871.14587600081,
+      "reranked_generation": 1072.676413001318,
+      "baseline_total_ms": 886.7237020003813,
+      "reranked_total_ms": 1364.1622850009298
+    },
+    {
+      "question": "Can a player pass before using their strategy card?",
+      "query_embedding": 17.364487999657285,
+      "vector_search": 0.1693379999778699,
+      "reranking": 258.6822580014996,
+      "baseline_generation": 917.2874960004265,
+      "reranked_generation": 1287.1153409996623,
+      "baseline_total_ms": 934.8213220000616,
+      "reranked_total_ms": 1563.331425000797
+    },
+    {
+      "question": "Can a blockaded space dock still produce ground forces but not ships?",
+      "query_embedding": 15.665892000470194,
+      "vector_search": 0.16144300025189295,
+      "reranking": 267.3522490003961,
+      "baseline_generation": 849.7841009993863,
+      "reranked_generation": 1290.863521000574,
+      "baseline_total_ms": 865.6114360001084,
+      "reranked_total_ms": 1574.0431050016923
+    },
+    {
+      "question": "Can a unit without a printed cost be produced by an ability?",
+      "query_embedding": 15.459835000001476,
+      "vector_search": 0.11680900024657603,
+      "reranking": 272.20408900029724,
+      "baseline_generation": 730.215395000414,
+      "reranked_generation": 878.0220110002119,
+      "baseline_total_ms": 745.792039000662,
+      "reranked_total_ms": 1165.8027440007572
+    }
+  ],
+  "evidence_movement": [
+    {
+      "question": "Can trade goods be spent to cast votes during the agenda phase?",
+      "evidence": "Trade goods cannot be spent to cast votes",
+      "evidence_found_in_top_10": true,
+      "movement_4_to_3": true,
+      "verified_moves": [
+        [
+          "p29-t00700",
+          29,
+          5,
+          2
+        ]
+      ]
+    },
+    {
+      "question": "May a player spend commodities directly, without trading them first?",
+      "evidence": "A player cannot spend commodities",
+      "evidence_found_in_top_10": true,
+      "movement_4_to_3": true,
+      "verified_moves": [
+        [
+          "p12-t00000",
+          12,
+          7,
+          2
+        ]
+      ]
+    },
+    {
+      "question": "Can ships move through an asteroid field if they do not stop there?",
+      "evidence": "A ship cannot move through or into an asteroid field",
+      "evidence_found_in_top_10": true,
+      "movement_4_to_3": false,
+      "verified_moves": []
+    },
+    {
+      "question": "Can a player pass before using their strategy card?",
+      "evidence": "A player cannot pass until they have performed a strategic",
+      "evidence_found_in_top_10": true,
+      "movement_4_to_3": false,
+      "verified_moves": []
+    },
+    {
+      "question": "Can a blockaded space dock still produce ground forces but not ships?",
+      "evidence": "A player cannot use a blockaded unit to produce ships",
+      "evidence_found_in_top_10": true,
+      "movement_4_to_3": true,
+      "verified_moves": [
+        [
+          "p10-t00140",
+          10,
+          8,
+          1
+        ]
+      ]
+    },
+    {
+      "question": "Can a unit without a printed cost be produced by an ability?",
+      "evidence": "If a unit does not have a cost, it cannot be produced",
+      "evidence_found_in_top_10": true,
+      "movement_4_to_3": false,
+      "verified_moves": []
+    }
+  ]
+}
